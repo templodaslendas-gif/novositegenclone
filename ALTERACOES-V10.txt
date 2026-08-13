@@ -1,0 +1,10 @@
+BASE: V9
+CORREÇÕES:
+- Retângulo externo do header removido.
+- CTA Garantir Acesso com animação 3D/pulsante e fallback reduced-motion.
+- Card Apple / Páginas premium ocupa toda a largura no desktop, eliminando o vão.
+- Responsividade específica para o card Apple no mobile/tablet.
+- Espaçamentos verticais reduzidos pontualmente.
+- Consentimento de cookies passa para versão v2: banner aparece até a escolha; depois permanece gerenciável no rodapé.
+- Política de Privacidade/LGPD, Política de Cookies e Termos ampliados.
+ATENÇÃO: CNPJ/CPF do fornecedor e endereço comercial não foram inventados e precisam ser inseridos antes da venda definitiva se aplicáveis à operação.

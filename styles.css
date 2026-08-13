@@ -609,3 +609,176 @@ footer { color: var(--muted); border-top: 1px solid var(--line); background: rgb
     font-size:13px !important;
   }
 }
+
+
+/* === SITEGEN V10 — AJUSTES FINAIS PONTUAIS === */
+
+/* Header sem o retângulo externo: apenas logo e CTA flutuam no topo */
+.topbar{
+  position:absolute !important;
+  top:18px !important;
+  left:50% !important;
+  width:min(1220px, calc(100% - 32px)) !important;
+  min-height:76px !important;
+  padding:0 6px !important;
+  transform:translateX(-50%) !important;
+  background:transparent !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  backdrop-filter:none !important;
+}
+.brand{
+  background:#fff !important;
+  padding:5px 8px !important;
+  border-radius:12px !important;
+  border:0 !important;
+  box-shadow:none !important;
+}
+.brand-logo{
+  display:block !important;
+  width:158px !important;
+  height:58px !important;
+  object-fit:contain !important;
+  background:#fff !important;
+  border:0 !important;
+  box-shadow:none !important;
+  border-radius:0 !important;
+}
+
+/* CTA de acesso mais visível, 3D e pulsante */
+.header-cta{
+  position:relative !important;
+  isolation:isolate;
+  overflow:visible;
+  border-radius:15px !important;
+  padding:15px 23px !important;
+  color:#fff !important;
+  background:linear-gradient(135deg,#075fe4 0%,#234ee8 48%,#6425f5 100%) !important;
+  border:1px solid rgba(255,255,255,.28) !important;
+  box-shadow:
+    0 10px 0 #061f58,
+    0 18px 30px rgba(25,70,220,.30),
+    inset 0 1px 0 rgba(255,255,255,.35) !important;
+  transform:translateY(-4px) perspective(500px) rotateX(2deg) !important;
+  animation:sitegenCtaPulse 2.2s ease-in-out infinite !important;
+  transition:transform .18s ease, box-shadow .18s ease, filter .18s ease !important;
+}
+.header-cta::before{
+  content:"";
+  position:absolute;
+  inset:-8px;
+  z-index:-1;
+  border-radius:21px;
+  border:1px solid rgba(68,119,255,.34);
+  opacity:.65;
+  animation:sitegenCtaRing 2.2s ease-out infinite;
+}
+.header-cta:hover{
+  filter:brightness(1.06);
+  transform:translateY(-7px) perspective(500px) rotateX(0deg) scale(1.035) !important;
+  box-shadow:
+    0 13px 0 #061f58,
+    0 24px 42px rgba(25,70,220,.38),
+    inset 0 1px 0 rgba(255,255,255,.4) !important;
+}
+.header-cta:active{
+  transform:translateY(2px) !important;
+  box-shadow:
+    0 4px 0 #061f58,
+    0 10px 20px rgba(25,70,220,.24) !important;
+}
+@keyframes sitegenCtaPulse{
+  0%,100%{filter:brightness(1); box-shadow:0 10px 0 #061f58,0 18px 30px rgba(25,70,220,.28),inset 0 1px 0 rgba(255,255,255,.35)}
+  50%{filter:brightness(1.08); box-shadow:0 10px 0 #061f58,0 20px 42px rgba(63,76,255,.48),0 0 0 7px rgba(68,119,255,.08),inset 0 1px 0 rgba(255,255,255,.4)}
+}
+@keyframes sitegenCtaRing{
+  0%{transform:scale(.96);opacity:.65}
+  75%,100%{transform:scale(1.16);opacity:0}
+}
+
+/* Corrige o vão ao lado do card Apple: o último exemplo ocupa a linha inteira */
+.showcase-grid > .showcase-card:last-child{
+  grid-column:1 / -1 !important;
+  grid-template-columns:minmax(360px,.88fr) 1.12fr !important;
+  min-height:430px !important;
+}
+.showcase-grid > .showcase-card:last-child .showcase-copy{
+  padding:42px 46px !important;
+}
+.showcase-grid > .showcase-card:last-child .showcase-copy h3{
+  font-size:clamp(38px,4.2vw,60px) !important;
+  max-width:620px;
+}
+.showcase-grid > .showcase-card:last-child .showcase-copy p{
+  max-width:620px;
+  font-size:16px !important;
+}
+
+/* Espaçamento mais enxuto sem alterar a composição */
+.section{
+  padding-top:62px !important;
+  padding-bottom:62px !important;
+}
+.section-heading{
+  margin-bottom:32px !important;
+}
+
+/* Mobile/tablet */
+@media (max-width:800px){
+  .topbar{
+    top:10px !important;
+    width:calc(100% - 20px) !important;
+    min-height:60px !important;
+    padding:0 !important;
+  }
+  .brand{
+    padding:3px 5px !important;
+    border-radius:9px !important;
+  }
+  .brand-logo{
+    width:116px !important;
+    height:46px !important;
+  }
+  .header-cta{
+    padding:12px 14px !important;
+    font-size:9px !important;
+    border-radius:12px !important;
+    box-shadow:0 7px 0 #061f58,0 13px 24px rgba(25,70,220,.28) !important;
+    transform:translateY(-2px) !important;
+  }
+  .showcase-grid > .showcase-card:last-child{
+    grid-column:auto !important;
+    grid-template-columns:1fr !important;
+    min-height:0 !important;
+  }
+  .showcase-grid > .showcase-card:last-child .showcase-visual{
+    height:330px !important;
+  }
+  .showcase-grid > .showcase-card:last-child .showcase-copy{
+    padding:26px 22px !important;
+  }
+  .showcase-grid > .showcase-card:last-child .showcase-copy h3{
+    font-size:31px !important;
+  }
+  .showcase-grid > .showcase-card:last-child .showcase-copy p{
+    font-size:14px !important;
+  }
+  .section{
+    padding-top:48px !important;
+    padding-bottom:48px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .header-cta,.header-cta::before{animation:none !important}
+}
+
+.legal-identity{
+  text-align:center;
+  padding:10px 16px 0;
+  font-size:12px;
+  line-height:1.5;
+  color:inherit;
+  opacity:.68;
+}
+.legal-identity a{color:inherit;text-decoration:underline}

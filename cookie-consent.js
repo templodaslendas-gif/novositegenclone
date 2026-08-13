@@ -1,6 +1,6 @@
 
 (function () {
-  const KEY = "sitegen_cookie_preferences_v1";
+  const KEY = "sitegen_cookie_preferences_v2";
 
   function getPrefs() {
     try { return JSON.parse(localStorage.getItem(KEY) || "null"); }
