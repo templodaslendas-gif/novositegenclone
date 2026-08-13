@@ -1,0 +1,3 @@
+SiteGen Clone restaurado diretamente do ZIP capturado pelo FFR SiteLens.
+Fonte visual: clone/index.html + clone/styles.css
+Nenhuma alteração de layout, textos, preços ou seções foi aplicada.

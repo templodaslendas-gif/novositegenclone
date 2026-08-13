@@ -1,0 +1,209 @@
+{
+  "overallSimilarity": null,
+  "viewportResults": [],
+  "checkpointResults": [],
+  "missingAssets": [
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/brand/sitegen-clone-logo.jpg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/showcase/site-cinematografico.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/showcase/marketplace.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/showcase/ecommerce.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/showcase/pagina-premium.jpeg",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/fef07dbb0973bf53-s.12tyk43_3sh9u.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/8a480f0b521d4e75-s.0jzbimsg8vl84.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/53b9e256198e5412-s.0-wfv7uh4i7h9.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/7178b3e590c64307-s.0nx0ww8fni_q3.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/5ce348bf30bf5439-s.0zgw-jeven.3w.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/4fa387ec64143e14-s.0wkzw~je483f-.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/6306c77e7c8268e4-s.0rhz0arwfsn~5.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/7d817b4c03b0c5f1-s.0l76wvqk9d84w.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/bbc41e54d2fcbd21-s.0k4k9394f2q-k.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/media/797e433ab948586e-s.p.08e28id.o-okb.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/fef07dbb0973bf53-s.12tyk43_3sh9u.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/8a480f0b521d4e75-s.0jzbimsg8vl84.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/53b9e256198e5412-s.0-wfv7uh4i7h9.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/7178b3e590c64307-s.0nx0ww8fni_q3.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/5ce348bf30bf5439-s.0zgw-jeven.3w.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/4fa387ec64143e14-s.0wkzw~je483f-.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/6306c77e7c8268e4-s.0rhz0arwfsn~5.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/7d817b4c03b0c5f1-s.0l76wvqk9d84w.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/bbc41e54d2fcbd21-s.0k4k9394f2q-k.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/media/797e433ab948586e-s.p.08e28id.o-okb.woff2",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/chunks/05q6p.3d9ir22.css",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/chunks/15xrurgzs99gv.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/chunks/03cnjj9mnzy_p.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/chunks/07lhk_q6pmm3r.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/chunks/turbopack-0c9~43oxg.wi~.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    },
+    {
+      "originalUrl": "https://sitegenclone.vercel.app/_next/static/chunks/0dbhjjzl8qfwv.js",
+      "captureStatus": "failed",
+      "reason": "protected_unavailable",
+      "detail": "Failed to fetch"
+    }
+  ],
+  "layoutDifferences": [],
+  "fontDifferences": [],
+  "recommendations": [],
+  "limitation": "Responsive capture disabled by default."
+}

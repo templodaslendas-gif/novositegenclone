@@ -1,0 +1,60 @@
+{
+  "url": "https://sitegenclone.vercel.app/",
+  "title": "SiteGen Clone — Clone qualquer site em minutos",
+  "capturedAt": "2026-08-13T03:12:20.208Z",
+  "tool": "SiteGen Clone v2.1.0",
+  "layout": {
+    "url": "https://sitegenclone.vercel.app/",
+    "title": "SiteGen Clone — Clone qualquer site em minutos",
+    "viewport": {
+      "width": 1366,
+      "height": 607
+    },
+    "pageSize": {
+      "width": 1351,
+      "height": 8000
+    },
+    "scrollY": 0,
+    "devicePixelRatio": 1,
+    "bodyBg": "rgb(255, 255, 255)",
+    "htmlBg": "rgba(0, 0, 0, 0)",
+    "bodyFont": "Arial, Helvetica, sans-serif",
+    "maxContainer": {
+      "selector": "div.section-heading.reveal",
+      "maxWidth": "910px"
+    },
+    "metaDescription": "Capture páginas, recursos e interações em um pacote organizado para reconstrução autorizada.",
+    "metaViewport": "width=device-width, initial-scale=1",
+    "ogImage": "",
+    "lang": "pt-BR",
+    "favicon": "https://sitegenclone.vercel.app/favicon.svg",
+    "charset": "UTF-8"
+  },
+  "frameworks": {
+    "gsap": false,
+    "scrollTrigger": false,
+    "framerMotion": false,
+    "lottie": false,
+    "threeJs": false,
+    "animejs": false,
+    "motionOne": false,
+    "lenis": false,
+    "locomotiveScroll": false,
+    "react": false,
+    "nextjs": false,
+    "vue": false,
+    "svelte": false,
+    "tailwind": true,
+    "styledComponents": false,
+    "emotion": false
+  },
+  "preset": "animations",
+  "language": "pt-BR",
+  "privacy": {
+    "redactedValues": 0,
+    "redactedAttributes": 0,
+    "retainedValues": 0,
+    "screenshotsRedacted": false,
+    "recordingsRedacted": false
+  }
+}
