@@ -1,20 +1,11 @@
 {
   "name": "SiteGen Clone",
   "short_name": "SiteGen Clone",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0b35c9",
   "icons": [
-    {
-      "src": "/sitegen-icon-192-v5.png?v=20260812",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/sitegen-icon-512-v5.png?v=20260812",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+    {"src":"/web-app-manifest-192x192.png","sizes":"192x192","type":"image/png"},
+    {"src":"/web-app-manifest-512x512.png","sizes":"512x512","type":"image/png"}
+  ],
+  "theme_color":"#0b35c9",
+  "background_color":"#ffffff",
+  "display":"standalone"
 }
