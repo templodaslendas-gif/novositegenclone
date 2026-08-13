@@ -1,0 +1,3 @@
+BASE VISUAL: clone restaurado do ZIP enviado pelo usuário.
+ALTERAÇÕES: preço R$57; mensagem R$4,75/mês; carrossel de tecnologias; carrossel IA/editores; cookie banner; política de cookies; privacidade/LGPD; termos.
+Demais textos, seções e layout original preservados.

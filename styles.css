@@ -395,3 +395,61 @@ footer { color: var(--muted); border-top: 1px solid var(--line); background: rgb
   html { scroll-behavior: auto; }
   *, ::before, ::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
 }
+
+/* === SITEGEN V8: SOMENTE CARROSSEIS, PREÇO E LGPD === */
+.monthly-equivalent{margin:6px 0 0;text-align:center;display:grid;gap:2px}
+.monthly-equivalent strong{font-size:12px;letter-spacing:.12em;color:#79d9ff}
+.monthly-equivalent span{font-size:11px;color:#a9b7cd}
+
+.sg-compat{background:#07090c;color:#fff;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);padding:54px 0;overflow:hidden}
+.sg-overline{text-align:center;color:#7f8794;font-size:12px;letter-spacing:.16em;margin:0 0 30px}
+.sg-marquee{width:100%;overflow:hidden}
+.sg-marquee-track{display:flex;gap:16px;width:max-content;animation:sgScroll 34s linear infinite;padding:4px 0}
+.sg-marquee-track.sg-reverse{animation-direction:reverse;animation-duration:38s}
+.sg-chip{height:54px;padding:0 22px;display:flex;align-items:center;gap:11px;border:1px solid rgba(255,255,255,.13);border-radius:15px;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.018));font-size:16px;font-weight:600;color:#f5f7fb;white-space:nowrap;box-shadow:inset 0 0 0 1px rgba(255,255,255,.015)}
+.sg-chip img{width:27px;height:27px;object-fit:contain}
+.sg-symbol,.sg-emoji{width:28px;min-width:28px;height:28px;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:900}
+@keyframes sgScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+.sg-ai{padding-top:58px;padding-bottom:64px}
+.sg-ai-head{text-align:center;max-width:760px;margin:0 auto 48px;padding:0 20px}
+.sg-badge{display:inline-flex;border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:8px 16px;font-size:12px;letter-spacing:.07em;margin:0 0 24px}
+.sg-ai-head h2{font-size:clamp(38px,5vw,62px);line-height:.98;letter-spacing:-.05em;margin:0 0 24px;font-weight:500}
+.sg-ai-head h2 span{color:#8c94a4}
+.sg-ai-head>p:last-child{font-size:16px;color:#aeb5c0;line-height:1.6;margin:0}
+
+.legal-links{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;align-items:center;padding:18px 16px 4px}
+.legal-links a,.legal-links button{color:inherit;opacity:.72;font:inherit;font-size:12px;text-decoration:underline;background:none;border:0;padding:0;cursor:pointer}
+.legal-links a:hover,.legal-links button:hover{opacity:1}
+
+.cookie-banner{position:fixed;left:20px;right:20px;bottom:20px;z-index:9999;max-width:1080px;margin:auto;background:#08162d;color:#fff;border:1px solid rgba(255,255,255,.16);border-radius:18px;box-shadow:0 24px 80px rgba(0,0,0,.38);padding:18px;display:none}
+.cookie-banner.is-visible{display:block}
+.cookie-banner-inner{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+.cookie-banner h3{margin:0 0 6px;font-size:17px}
+.cookie-banner p{margin:0;color:#c6d1e0;font-size:13px;line-height:1.5}
+.cookie-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.cookie-actions button{border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+.cookie-primary{background:#1069ef;color:#fff;border:1px solid #1069ef}
+.cookie-secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25)}
+
+.cookie-modal{position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.7);display:none;place-items:center;padding:20px}
+.cookie-modal.is-visible{display:grid}
+.cookie-panel{width:min(720px,100%);max-height:90vh;overflow:auto;background:#fff;color:#0d1a2d;border-radius:18px;padding:24px}
+.cookie-panel h2{margin-top:0}
+.cookie-row{display:flex;justify-content:space-between;gap:20px;padding:16px 0;border-top:1px solid #e6e9ee}
+.cookie-row small{display:block;color:#687386;line-height:1.45;margin-top:4px}
+.cookie-switch{width:48px;height:26px}
+.cookie-panel-actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;margin-top:18px}
+.cookie-panel-actions button{padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+
+@media(max-width:700px){
+  .sg-compat{padding:42px 0}
+  .sg-chip{height:50px;padding:0 18px;font-size:14px;border-radius:14px}
+  .sg-chip img{width:24px;height:24px}
+  .sg-ai-head{margin-bottom:36px}
+  .sg-ai-head h2{font-size:42px}
+  .cookie-banner{left:10px;right:10px;bottom:10px}
+  .cookie-banner-inner{grid-template-columns:1fr}
+  .cookie-actions{justify-content:stretch}
+  .cookie-actions button{flex:1 1 140px}
+}
