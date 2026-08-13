@@ -1,4 +1,5 @@
 SiteGen Clone
-BUILD: v6-corrigido-minimo
-BASE: landing-v3 aprovada
-ALTERACOES: 2 carrosseis + preco R$57 + nota R$4,75/mes + cache-bust favicon
+BUILD: 2026-08-12-v5-clean
+PRECO: R$ 57,00
+PRECO ANTERIOR: R$ 197,00
+EQUIVALENCIA: R$ 4,75/mes nos primeiros 12 meses

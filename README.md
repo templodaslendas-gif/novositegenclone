@@ -1,26 +1,23 @@
-# SiteGen Clone — Landing Page
+# SiteGen Clone — Landing V4
 
-Landing page criada a partir da sequência estrutural da referência fornecida, adaptada para o SiteGen Clone e focada em conversão.
+Versão com os dois carrosséis inspirados na referência enviada, adaptados ao SiteGen Clone.
 
-## Antes da publicação
+## Atualizações
+- Carrossel de stacks perto do início da página.
+- Carrossel de IAs/editores perto do fim.
+- React, Next.js, Vue, Svelte, Astro, Webflow, Framer, Tailwind, WordPress, GSAP + HTML, CSS, JavaScript, Angular e Three.js.
+- Claude Code, ChatGPT, Gemini, Cursor, Lovable, VS Code, Copilot, Bolt, Replit, Windsurf e v0.
+- Preço atualizado para R$ 57,00.
+- Preço anterior em destaque: R$ 197,00.
+- Comunicação equivalente a R$ 4,75/mês ao diluir o valor pelos primeiros 12 meses.
+- Responsividade mobile reforçada nos carrosséis.
+- Favicons mantidos.
 
-1. Substituir o placeholder de vídeo na seção `#video` pelo vídeo oficial.
-2. Alterar `CHECKOUT_URL` em `script.js` para o link definitivo do checkout.
-3. Validar os textos comerciais, termos e política de privacidade antes do lançamento.
-4. Fazer revisão mobile e teste do WhatsApp.
-5. Somente depois da aprovação, subir para a branch conectada à Vercel.
+## Checkout
+Troque `CHECKOUT_URL` em `script.js` pelo link definitivo.
 
-## WhatsApp configurado
+## Vídeos
+A hero continua com placeholder para o vídeo principal. A seção mais abaixo continua reservada para vídeo de prova/case.
 
-Número: +55 45 99931-7831
-
-Mensagem:
-`queria tirar algumas duvidas sobre o SiteGen Clone.`
-
-## Preço exibido
-
-R$ 39,90
-
-
-## Favicons
-Os arquivos de favicon ficam na raiz do projeto: `favicon.ico`, `favicon-96x96.png`, `apple-touch-icon.png`, `web-app-manifest-192x192.png`, `web-app-manifest-512x512.png` e `site.webmanifest`. O `index.html` já está configurado para usá-los.
+## Observação sobre logos
+Os logos dos carrosséis usam os mesmos arquivos públicos da referência fornecida pelo usuário. Se quiser eliminar qualquer dependência externa, copie os SVGs para `/assets/logos/` e ajuste os `src`.
