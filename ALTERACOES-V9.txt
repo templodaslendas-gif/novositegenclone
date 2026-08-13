@@ -1,0 +1,12 @@
+BASE: V8 (site restaurado do clone aprovado)
+ALTERAÇÕES PONTUAIS:
+1. faixa de garantia reta;
+2. áreas vazias dos cards preenchidas/rebalanceadas;
+3. banner 'Pare de reconstruir tudo do zero' removido;
+4. espaçamento entre seções reduzido;
+5. favicons locais adicionados;
+6. seção de IAs movida para cima e ícones substituídos por símbolos internos;
+7. header/logo não acompanha mais o scroll;
+8. logo local sobre fundo branco, sem moldura própria;
+9. ajustes responsivos para desktop, tablet e celular.
+Demais estrutura e conteúdo preservados.
