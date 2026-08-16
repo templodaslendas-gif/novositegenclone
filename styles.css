@@ -782,3 +782,177 @@ footer { color: var(--muted); border-top: 1px solid var(--line); background: rgb
   opacity:.68;
 }
 .legal-identity a{color:inherit;text-decoration:underline}
+
+
+/* === SITEGEN V12 — SOMENTE MOBILE: VÍDEO x CHECKOUT === */
+@media (max-width: 700px) {
+  /* Vídeo recebe prioridade visual maior que o checkout no celular */
+  .video-shell{
+    width:calc(100% - 22px) !important;
+    min-height:0 !important;
+    aspect-ratio:16 / 9 !important;
+    margin:22px auto 20px !important;
+    border-radius:18px !important;
+  }
+
+  .video-label{
+    padding:14px 16px !important;
+  }
+
+  .video-label strong{
+    font-size:12px !important;
+    line-height:1.2 !important;
+  }
+
+  .video-label span{
+    font-size:11px !important;
+    line-height:1.35 !important;
+  }
+
+  /* Oferta inicial deixa de parecer maior que o vídeo */
+  .launch-offer{
+    width:calc(100% - 30px) !important;
+    margin:16px auto 0 !important;
+    padding:16px 14px !important;
+    border-radius:18px !important;
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:13px !important;
+  }
+
+  .launch-copy{
+    text-align:center !important;
+  }
+
+  .launch-copy span{
+    font-size:9px !important;
+    letter-spacing:.12em !important;
+  }
+
+  .launch-copy strong{
+    display:block !important;
+    margin-top:4px !important;
+    font-size:15px !important;
+    line-height:1.3 !important;
+  }
+
+  .price-block.compact{
+    transform:none !important;
+    padding:8px 4px !important;
+  }
+
+  .price-comparison{
+    justify-content:center !important;
+    gap:9px !important;
+  }
+
+  .old-price{
+    font-size:17px !important;
+  }
+
+  .new-price{
+    font-size:42px !important;
+    line-height:.95 !important;
+  }
+
+  .new-price small{
+    font-size:13px !important;
+  }
+
+  .new-price sup{
+    font-size:17px !important;
+    top:-.72em !important;
+  }
+
+  .annual-label{
+    margin-top:7px !important;
+    font-size:9px !important;
+    letter-spacing:.16em !important;
+  }
+
+  .monthly-equivalent{
+    margin-top:6px !important;
+    gap:2px !important;
+  }
+
+  .monthly-equivalent strong{
+    font-size:9px !important;
+  }
+
+  .monthly-equivalent span{
+    font-size:10px !important;
+    line-height:1.35 !important;
+  }
+
+  .primary-cta{
+    width:min(100%, 290px) !important;
+    justify-self:center !important;
+    padding:14px 15px !important;
+    border-radius:13px !important;
+    font-size:13px !important;
+    line-height:1.2 !important;
+    text-align:center !important;
+    animation:sitegenMobileCheckoutPulse 2s ease-in-out infinite !important;
+    box-shadow:
+      0 8px 0 #071b48,
+      0 14px 28px rgba(7,95,228,.28) !important;
+  }
+
+  .primary-cta:active{
+    transform:translateY(4px) !important;
+    box-shadow:
+      0 3px 0 #071b48,
+      0 8px 16px rgba(7,95,228,.24) !important;
+  }
+
+  .microcopy{
+    margin-top:14px !important;
+    font-size:10px !important;
+    text-align:center !important;
+  }
+
+  /* Checkout final também compacto e pulsante no mobile */
+  .offer{
+    padding-top:46px !important;
+    padding-bottom:46px !important;
+  }
+
+  .offer-panel{
+    padding:22px 18px !important;
+    border-radius:20px !important;
+  }
+
+  .buy-button{
+    min-height:0 !important;
+    padding:15px 16px !important;
+    font-size:14px !important;
+    border-radius:14px !important;
+    animation:sitegenMobileCheckoutPulse 2s ease-in-out infinite !important;
+  }
+
+  @keyframes sitegenMobileCheckoutPulse{
+    0%,100%{
+      transform:translateY(0) scale(1);
+      filter:brightness(1);
+    }
+    50%{
+      transform:translateY(-2px) scale(1.025);
+      filter:brightness(1.08);
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .video-shell{
+    width:calc(100% - 16px) !important;
+  }
+  .launch-offer{
+    width:calc(100% - 20px) !important;
+  }
+  .new-price{
+    font-size:38px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .primary-cta,.buy-button{animation:none !important}
+}

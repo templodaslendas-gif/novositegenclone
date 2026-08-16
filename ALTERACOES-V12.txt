@@ -1,0 +1,6 @@
+V12 — Ajuste estritamente mobile
+- Vídeo 16:9 recebe mais destaque no celular.
+- Bloco de checkout inicial foi reduzido no mobile.
+- Checkout final também foi compactado no mobile.
+- CTA de compra ficou mais pulsante/3D no celular.
+- Desktop não foi alterado por esta versão.
