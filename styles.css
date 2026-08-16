@@ -956,3 +956,122 @@ footer { color: var(--muted); border-top: 1px solid var(--line); background: rgb
 @media (prefers-reduced-motion: reduce){
   .primary-cta,.buy-button{animation:none !important}
 }
+
+/* === SITEGEN V13 — AJUSTE FINO MOBILE: CHECKOUT MENOR QUE O VÍDEO === */
+@media (max-width: 700px){
+  .hero .media-stack{
+    gap: 12px !important;
+  }
+
+  .video-shell{
+    width: calc(100% - 18px) !important;
+    max-width: 360px !important;
+    aspect-ratio: 16 / 9.4 !important;
+    border-width: 6px !important;
+    border-radius: 18px !important;
+    box-shadow: rgba(5,41,96,.20) 0 20px 44px !important;
+  }
+
+  .launch-offer{
+    width: calc(100% - 52px) !important;
+    max-width: 320px !important;
+    margin: 10px auto 0 !important;
+    padding: 12px 12px 14px !important;
+    gap: 10px !important;
+    border-radius: 18px !important;
+    box-shadow: rgba(5,41,96,.16) 0 12px 28px !important;
+  }
+
+  .launch-copy span{
+    font-size: 8px !important;
+    letter-spacing: .14em !important;
+  }
+
+  .launch-copy strong{
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+    margin-top: 2px !important;
+  }
+
+  .price-block.compact{
+    padding: 2px 0 !important;
+  }
+
+  .price-comparison{
+    gap: 8px !important;
+    margin-top: 4px !important;
+  }
+
+  .old-price{
+    font-size: 15px !important;
+  }
+
+  .old-price small{
+    font-size: 9px !important;
+  }
+
+  .new-price{
+    font-size: 36px !important;
+    line-height: .92 !important;
+  }
+
+  .new-price small{
+    font-size: 11px !important;
+    margin-right: 3px !important;
+  }
+
+  .new-price sup{
+    font-size: 15px !important;
+    top: -.68em !important;
+  }
+
+  .annual-label{
+    margin-top: 4px !important;
+    font-size: 8px !important;
+    letter-spacing: .14em !important;
+  }
+
+  .monthly-equivalent{
+    margin-top: 4px !important;
+  }
+
+  .monthly-equivalent strong{
+    font-size: 8px !important;
+    letter-spacing: .08em !important;
+  }
+
+  .monthly-equivalent span{
+    font-size: 9px !important;
+    line-height: 1.25 !important;
+  }
+
+  .primary-cta{
+    width: min(100%, 256px) !important;
+    padding: 12px 14px !important;
+    font-size: 12px !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 0 #071b48, 0 10px 20px rgba(7,95,228,.22) !important;
+  }
+
+  .microcopy{
+    margin-top: 10px !important;
+    font-size: 9px !important;
+    line-height: 1.35 !important;
+  }
+}
+
+@media (max-width: 390px){
+  .video-shell{
+    width: calc(100% - 14px) !important;
+    max-width: 350px !important;
+  }
+
+  .launch-offer{
+    width: calc(100% - 44px) !important;
+    max-width: 308px !important;
+  }
+
+  .new-price{
+    font-size: 34px !important;
+  }
+}
