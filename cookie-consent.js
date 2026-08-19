@@ -40,7 +40,7 @@
       <div class="cookie-banner-inner">
         <div>
           <h3>Privacidade e cookies</h3>
-          <p>Usamos armazenamento estritamente necessário para lembrar suas preferências. Cookies analíticos e de marketing permanecem desativados até sua autorização. Leia nossa <a href="/cookies.html" style="color:#79d9ff">Política de Cookies</a> e a <a href="/privacidade.html" style="color:#79d9ff">Política de Privacidade e LGPD</a>.</p>
+          <p>Usamos armazenamento estritamente necessário para lembrar suas preferências. Cookies analíticos e de marketing permanecem desativados até sua autorização. Leia nossa <a href="/cookies.html" style="color:#79d9ff">Política de Cookies</a> e a <a href="/privacidade" style="color:#79d9ff">Política de Privacidade e LGPD</a>.</p>
         </div>
         <div class="cookie-actions">
           <button class="cookie-secondary" id="cookie-reject">Rejeitar não essenciais</button>
