@@ -1,0 +1,15 @@
+SITEGEN CLONE V15 — PACOTE COMPLETO CORRIGIDO
+
+BASE:
+- Projeto completo recuperado do arquivo novositegenclone-git.rar enviado pelo usuário.
+- Estrutura original, assets, scripts, páginas legais, favicons, manifestos e referências preservados.
+
+CORREÇÕES:
+1. CSS completo restaurado (o pacote V14 incorreto continha apenas o patch mobile).
+2. Todos os arquivos/pastas essenciais restaurados.
+3. Checkout Lastlink configurado nos 3 CTAs de compra.
+4. No celular, checkout inicial fica menor que o vídeo.
+5. Desktop permanece com o layout da base completa.
+
+CHECKOUT:
+https://lastlink.com/p/C588E3CBE/checkout-payment
