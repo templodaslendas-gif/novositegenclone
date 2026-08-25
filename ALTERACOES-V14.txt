@@ -1,0 +1,5 @@
+V14
+- Mantém os ajustes visuais/mobile da V13.
+- Todos os botões de compra agora levam para:
+  https://lastlink.com/p/C588E3CBE/checkout-payment
+- Alterados: Garantir acesso (topo), Quero garantir por R$ 57,00 e Quero garantir meu acesso.
